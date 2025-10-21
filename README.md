@@ -115,7 +115,7 @@ Menampilkan daftar produk dan _modal_ keranjang belanja dengan perhitungan pajak
 
 |                                                             Daftar Produk Kasir                                                              |                                                               Keranjang Belanja                                                               |
 | :------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------: |
-| ![Daftar Produk Kasir](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/kasir_daftar.png) | ![Keranjang Belanja](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/kasir_keranjang.png) |
+| ![Daftar Produk Kasir](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/kasir.png) | ![Keranjang Belanja](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/keranjang.png) |
 
 <br/>
 
@@ -125,7 +125,7 @@ Menampilkan daftar lengkap Produk dan halaman pengelolaan Kategori.
 
 |                                                               Daftar Produk                                                                |                                                             Daftar Kategori                                                             |
 | :----------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: |
-| ![Manajemen Produk](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/produk_daftar.png) | ![Manajemen Kategori](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/kategori.png) |
+| ![Manajemen Produk](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/produk.png) | ![Manajemen Kategori](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/kategori.png) |
 
 <br/>
 
@@ -135,7 +135,7 @@ Tampilan detail transaksi dan _output_ struk/invoice yang siap dicetak.
 
 |                                                               Detail Transaksi                                                                |                                                        Invoice Cetak Struk                                                        |
 | :-------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: |
-| ![Detail Transaksi](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/transaksi_detail.png) | ![Cetak Invoice](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/invoice.png) |
+| ![Detail Transaksi](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/detailTransaksi.png) | ![Cetak Invoice](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/invoice.png) |
 
 <br/>
 
@@ -143,9 +143,9 @@ Tampilan detail transaksi dan _output_ struk/invoice yang siap dicetak.
 
 Menampilkan ringkasan data pemasukan dan grafik transaksi.
 
-|                                                          Laporan Pemasukan                                                           |                                                              Grafik Keuangan                                                               |
-| :----------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: |
-| ![Laporan Keuangan](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/laporan.png) | ![Grafik Keuangan](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/laporan_detail.png) |
+|                                                          Laporan Pemasukan & Grafik Keuangan                                                           |                                                                                                                             
+| :----------------------------------------------------------------------------------------------------------------------------------: |
+| ![Laporan Keuangan](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/laporanuang.png) | ![Grafik Keuangan]
 
 ---
 
