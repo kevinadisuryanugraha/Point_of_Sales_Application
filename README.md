@@ -97,33 +97,55 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek secara lokal:
 
 ## 📸 Dokumentasi (Screenshots)
 
-_Untuk melihat antarmuka pengguna secara langsung, silakan lihat tangkapan layar di bawah ini._
+_Untuk melihat antarmuka pengguna secara langsung, silakan lihat tangkapan layar di bawah ini. Semua file berada di folder `readme_asset`._
 
-### 1. Halaman Login
+### 1. Otentikasi & Dashboard
 
-![Login Page](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/login.png)
+Menampilkan halaman login dan ringkasan data transaksi terbaru.
+
+|                                                        Halaman Login                                                         |                                                          Dashboard Overview                                                           |
+| :--------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------: |
+| ![Login Page](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/login.png) | ![Dashboard Admin](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/dashboard.png) |
+
 <br/>
 
-### 2. Dashboard Admin
+### 2. Transaksi Kasir (Point of Sales)
 
-![Dashboard Admin](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/dashboard.png)
+Menampilkan daftar produk dan _modal_ keranjang belanja dengan perhitungan pajak/diskon.
+
+|                                                             Daftar Produk Kasir                                                              |                                                               Keranjang Belanja                                                               |
+| :------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![Daftar Produk Kasir](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/kasir_daftar.png) | ![Keranjang Belanja](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/kasir_keranjang.png) |
+
 <br/>
 
-### 3. Interface Kasir (Point of Sales)
+### 3. Manajemen Produk & Kategori
 
-![Kasir Interface](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/kasir.png)
+Menampilkan daftar lengkap Produk dan halaman pengelolaan Kategori.
+
+|                                                               Daftar Produk                                                                |                                                             Daftar Kategori                                                             |
+| :----------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: |
+| ![Manajemen Produk](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/produk_daftar.png) | ![Manajemen Kategori](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/kategori.png) |
+
 <br/>
 
-### 4. Manajemen Produk
+### 4. Detail Transaksi & Invoice
 
-![Product Management](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/produk.png)
+Tampilan detail transaksi dan _output_ struk/invoice yang siap dicetak.
+
+|                                                               Detail Transaksi                                                                |                                                        Invoice Cetak Struk                                                        |
+| :-------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: |
+| ![Detail Transaksi](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/transaksi_detail.png) | ![Cetak Invoice](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/invoice.png) |
+
 <br/>
 
 ### 5. Laporan Keuangan
 
-![Financial Report](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/laporan_keuangan.png)
+Menampilkan ringkasan data pemasukan dan grafik transaksi.
 
----
+|                                                          Laporan Pemasukan                                                           |                                                              Grafik Keuangan                                                               |
+| :----------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: |
+| ![Laporan Keuangan](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/laporan.png) | ![Grafik Keuangan](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/laporan_detail.png) |
 
 ---
 
