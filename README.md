@@ -2,20 +2,20 @@
 
 ## Model View Product - Warung MaVins
 
-MAVINS-POS adalah sistem Point of Sales (POS) berbasis web yang modern dan user-friendly, dibangun menggunakan **Laravel 12** dan didukung oleh antarmuka yang bersih dengan **Bootstrap 5**. [cite_start]Aplikasi ini dirancang untuk mengelola produk, kategori, dan transaksi secara efisien di lingkungan bisnis ritel[cite: 54, 115, 209].
+MAVINS-POS adalah sistem Point of Sales (POS) berbasis web yang modern dan user-friendly, dibangun menggunakan **Laravel 12** dan didukung oleh antarmuka yang bersih dengan **Bootstrap 5**. Aplikasi ini dirancang untuk mengelola produk, kategori, dan transaksi secara efisien di lingkungan bisnis ritel.
 
 ---
 
 ## ✨ Fitur Utama (Core Features)
 
-| Kategori           | Fitur                     | Peran Akses      | Deskripsi                                                                                                                                                                           |
-| :----------------- | :------------------------ | :--------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Manajemen Data** | **Product & Category**    | Admin, Manajemen | [cite_start]Mengelola seluruh daftar Produk (misalnya: Sate Ayam, Le Mineral) [cite: 121, 233, 235] [cite_start]dan Kategori Produk (Makanan, Minuman, Snack)[cite: 167, 177, 179]. |
-| **Transaksi POS**  | **Interface Kasir**       | Kasir            | [cite_start]Antarmuka intuitif untuk memilih produk, mengatur kuantitas, dan melihat Keranjang Belanja[cite: 220, 223, 266].                                                        |
-|                    | **Perhitungan Penjualan** | Kasir            | [cite_start]Menghitung Subtotal, Pajak (10%), Diskon, dan Total akhir secara otomatis[cite: 301, 303, 305, 306].                                                                    |
-|                    | **Invoice/Struk**         | Kasir            | [cite_start]Pembuatan dan pencetakan struk transaksi instan (`/orders/{id}/invoice`)[cite: 377, 342, 354].                                                                          |
-| **Laporan & Data** | **Dashboard Overview**    | Admin, Manajemen | [cite_start]Ringkasan Total Pemasukan dan Jumlah Transaksi hari ini/bulan ini[cite: 64, 84, 85, 86].                                                                                |
-|                    | **Laporan Keuangan**      | Admin, Manajemen | [cite_start]Fitur _filter_ dan _export_ (misalnya PDF) untuk analisis data pemasukan berdasarkan rentang tanggal[cite: 477, 498, 500].                                              |
+| Kategori           | Fitur                     | Peran Akses      | Deskripsi                                                                                                                              |
+| :----------------- | :------------------------ | :--------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
+| **Manajemen Data** | **Product & Category**    | Admin, Manajemen | Mengelola seluruh daftar Produk (misalnya: Sate Ayam, Le Mineral) [cite: 121, 233, 235] dan Kategori Produk (Makanan, Minuman, Snack). |
+| **Transaksi POS**  | **Interface Kasir**       | Kasir            | Antarmuka intuitif untuk memilih produk, mengatur kuantitas, dan melihat Keranjang Belanja.                                            |
+|                    | **Perhitungan Penjualan** | Kasir            | Menghitung Subtotal, Pajak (10%), Diskon, dan Total akhir secara otomatis.                                                             |
+|                    | **Invoice/Struk**         | Kasir            | Pembuatan dan pencetakan struk transaksi instan (`/orders/{id}/invoice`).                                                              |
+| **Laporan & Data** | **Dashboard Overview**    | Admin, Manajemen | Ringkasan Total Pemasukan dan Jumlah Transaksi hari ini/bulan ini.                                                                     |
+|                    | **Laporan Keuangan**      | Admin, Manajemen | Fitur _filter_ dan _export_ (misalnya PDF) untuk analisis data pemasukan berdasarkan rentang tanggal.                                  |
 
 ---
 
@@ -23,11 +23,11 @@ MAVINS-POS adalah sistem Point of Sales (POS) berbasis web yang modern dan user-
 
 Sistem MAVINS-POS membagi otoritas pengguna menjadi tiga peran utama untuk menjaga keamanan dan efisiensi operasional.
 
-| Peran         | Fokus Utama                        | Akses Kritis                                                                                            |
-| :------------ | :--------------------------------- | :------------------------------------------------------------------------------------------------------ |
-| **Admin**     | **Konfigurasi & Pengawasan Penuh** | Akses ke semua Laporan Keuangan, Manajemen Produk & Kategori, dan Pengaturan Pengguna.                  |
-| **Manajemen** | **Analisis Bisnis & Pelaporan**    | [cite_start]Akses ke Dashboard, Transaksi, dan Laporan Keuangan (Filter & Export PDF)[cite: 477].       |
-| **Kasir**     | **Operasional Penjualan**          | [cite_start]Akses ke halaman Kasir/Orders untuk memproses penjualan dan mencetak struk[cite: 220, 377]. |
+| Peran         | Fokus Utama                        | Akses Kritis                                                                           |
+| :------------ | :--------------------------------- | :------------------------------------------------------------------------------------- |
+| **Admin**     | **Konfigurasi & Pengawasan Penuh** | Akses ke semua Laporan Keuangan, Manajemen Produk & Kategori, dan Pengaturan Pengguna. |
+| **Manajemen** | **Analisis Bisnis & Pelaporan**    | Akses ke Dashboard, Transaksi, dan Laporan Keuangan (Filter & Export PDF).             |
+| **Kasir**     | **Operasional Penjualan**          | Akses ke halaman Kasir/Orders untuk memproses penjualan dan mencetak struk.            |
 
 ---
 
@@ -38,25 +38,13 @@ Aplikasi ini dibangun dengan fokus pada performa dan pemeliharaan:
 <div align='center'>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" width="48" height="48" style="margin: 4px;" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP" width="48" height="48" style="margin: 4px;" />
-  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" width="48" height="48" style="margin: 4px;" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" width="48" height="48" style="margin: 4px;" />
-  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="48" height="48" style="margin: 4px;" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-plain.svg" alt="Bootstrap" width="48" height="48" style="margin: 4px;" />
-  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js" width="48" height="48" style="margin: 4px;" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="Laravel" width="48" height="48" style="margin: 4px;" />
-  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL" width="48" height="48" style="margin: 4px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="48" height="48" style="margin: 4px;" />
-  <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="SQLite" width="48" height="48" style="margin: 4px;" />
-  
   <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="48" height="48" style="margin: 4px;" />
   <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS Code" width="48" height="48" style="margin: 4px;" />
-  <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="48" height="48" style="margin: 4px;" />
-  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="48" height="48" style="margin: 4px;" />
-  <img src="https://www.vectorlogo.zone/logos/canva/canva-icon.svg" alt="Canva" width="48" height="48" style="margin: 4px;" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-original.svg" alt="Adobe Illustrator" width="48" height="48" style="margin: 4px;" />
 </div>
 
 ---
@@ -103,7 +91,39 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek secara lokal:
     ```bash
     php artisan serve
     ```
-    [cite_start]Aplikasi akan berjalan di `http://127.0.0.1:8000/login`[cite: 11, 43].
+    Aplikasi akan berjalan di `http://127.0.0.1:8000/login`.
+
+---
+
+## 📸 Dokumentasi (Screenshots)
+
+_Untuk melihat antarmuka pengguna secara langsung, silakan lihat tangkapan layar di bawah ini._
+
+### 1. Halaman Login
+
+![Login Page](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/login.png)
+<br/>
+
+### 2. Dashboard Admin
+
+![Dashboard Admin](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/dashboard.png)
+<br/>
+
+### 3. Interface Kasir (Point of Sales)
+
+![Kasir Interface](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/kasir.png)
+<br/>
+
+### 4. Manajemen Produk
+
+![Product Management](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/produk.png)
+<br/>
+
+### 5. Laporan Keuangan
+
+![Financial Report](https://raw.githubusercontent.com/kevinadisuryanugraha/Point_of_Sales_Application/main/readme_asset/laporan_keuangan.png)
+
+---
 
 ---
 
